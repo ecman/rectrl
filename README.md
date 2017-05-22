@@ -84,3 +84,33 @@ adding 4 to total 6
 adding 5 to total 10
 Error: Parameters must be numbers
 ```
+
+Signature
+
+```text
+Get a recursive function that returns a Promise
+
+@param {function) recurser   - recursive function that accepts a maybe
+@param {any} ...declareArgs  - 0 or more delcare-time arguments for the 
+                               recurser. These come before caller arguments.
+
+The recurser should accept a "maybe" as the first argument:
+
+   { resume, resolve, reject }
+    
+   resume:   reference to the recursive function
+   resolve:  the promise resolve function
+   reject:   the promise reject function
+
+Additional parameters to the recurser will come after any
+declare-time specified arguments:
+
+     const myfunc = rectrl((maybe, declareArg1, callerArg1) => {
+          ... 
+     }, declareArg1);
+
+     myfunc(...callerArgs).then(...)
+
+@return {function} accepting 0 or more caller arguments
+```
+
