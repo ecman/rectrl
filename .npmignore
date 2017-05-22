@@ -1,0 +1,4 @@
+coverage
+.codeclimate.yml
+.travis.yml
+**/*.swp
