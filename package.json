@@ -1,7 +1,7 @@
 {
   "name": "rectrl",
-  "version": "1.0.1",
-  "description": "Create a recursive function that returns a Promise",
+  "version": "1.0.2",
+  "description": "Deprecated",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -23,14 +23,6 @@
     "url": "git+https://github.com/ecman/rectrl.git"
   },
   "keywords": [
-    "recursive",
-    "function",
-    "promises",
-    "delegation",
-    "recursion",
-    "asynchronous",
-    "callback",
-    "ecman"
   ],
   "author": "ecman <its.ec@outlook.com>",
   "license": "MIT",
