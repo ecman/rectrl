@@ -1,6 +1,6 @@
 {
   "name": "rectrl",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "Create a recursive function that returns a Promise",
   "main": "index.js",
   "directories": {
