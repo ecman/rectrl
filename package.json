@@ -1,0 +1,44 @@
+{
+  "name": "rectrl",
+  "version": "1.0.0-0",
+  "description": "Create a recursive function that returns a Promise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "okmaybe": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5"
+  },
+  "scripts": {
+    "test": "eslint index.js && istanbul cover test",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecman/rectrl.git"
+  },
+  "keywords": [
+    "recursive",
+    "function",
+    "promises",
+    "delegation",
+    "recursion",
+    "asynchronous",
+    "callback",
+    "ecman"
+  ],
+  "author": "ecman <its.ec@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecman/rectrl/issues"
+  },
+  "homepage": "https://github.com/ecman/rectrl#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
